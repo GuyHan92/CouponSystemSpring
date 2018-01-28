@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>LoginPage</title>
+<style>
+h1 {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+.button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+</style>
+</head>
+<body>
+	<div>
+		<h1>Welcome to Coupon System!</h1>
+		<img width="200" alt="Angular Logo"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Waxa2OaL5IpEWAND-zM-LgdIl3rdB6xvHblBE2ZNUuK3wx6p">
+		<h1>Login</h1>
+		<form action="http://localhost:8080/" method="POST">
+			<h4>
+				User/Company/Admin Name :<input type="text" name="nameBox">
+			</h4>
+			<h4>
+				Password : <input type="password" name="passwordBox">
+			</h4>
+			<select name="clientBox">
+				<option value="null">select client type</option>
+				<option value="admin">admin</option>
+				<option value="company">company</option>
+				<option value="user">user</option>
+			</select> <br> <br>
+			<button type="submit">LOGIN</button>
+		</form>
+	</div>
+</body>
+</html>
